@@ -1,14 +1,22 @@
 # Version Duration Tracker
 
-Calculates **active work time** from Google Drive version saves. Paste a version list copied from Google Drive's "Manage versions" dialog (right‑click any file → Manage versions), set a break threshold, and get per‑day work hours with midnight‑split accuracy.
-
-Works for **any file type** edited directly from Google Drive Desktop (maps a drive in Windows Explorer). Every time the file is saved, Google Drive adds a new version (max 100 — older ones are dropped). The tool calculates active duration by measuring intervals between consecutive saves and filtering out pauses longer than your set threshold.
-
-![Right‑click → Manage versions](assets/screenshot-context-menu.png)
-
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python)
 ![PySide6](https://img.shields.io/badge/PySide6-6.x-41CD52?logo=qt)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
+
+Calculates **active work time** from Google Drive version saves. Paste a version list, set a break threshold, get per‑day work hours with midnight‑split accuracy.
+
+![Right‑click → Manage versions](assets/screenshot-context-menu.png)
+
+Works for **any file type** edited directly from Google Drive Desktop (maps a drive in Windows Explorer). Every time the file is saved, Google Drive adds a new version (max 100 — older ones are dropped). The tool calculates active duration by measuring intervals between consecutive saves and filtering out pauses longer than your set threshold.
+
+## How It Works
+
+1. **Copy versions** — right‑click any file in Google Drive Desktop → Manage versions → select all text (Ctrl+A) → copy
+2. **Paste & process** — paste into the app, click **Process** or press `Ctrl+P`
+3. **Set break threshold** — use the slider (default 60 min) to define when a gap between saves counts as a break
+4. **View results** — toggle between **Daily summary** (per‑day totals) or **Work blocks** (consolidated sessions)
+5. **Export or copy** — CSV/TXT export or Ctrl+C any cell for spreadsheet paste
 
 ## Features
 
