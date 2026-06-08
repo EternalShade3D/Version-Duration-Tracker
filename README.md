@@ -12,14 +12,6 @@ Works for **any file type** edited directly from Google Drive Desktop (maps a dr
 
 ## Features
 
-### Daily summary — per‑day totals, decimal hours, first/last version
-
-![Daily summary](assets/screenshot-app-daily.png)
-
-### Work blocks / expanded view — consolidated sessions with version entries
-
-![Work blocks](assets/screenshot-app-tables.png)
-
 - **Daily summary** — per‑day total hours, first/last version, decimal hours for spreadsheet paste
 - **Work blocks** — consolidated sessions filtered by a configurable max‑break gap
 - **Expanded view** — every version transition with individual durations
@@ -29,6 +21,17 @@ Works for **any file type** edited directly from Google Drive Desktop (maps a dr
 - **Clipboard** — copy individual cells or totals, Ctrl+C copies only the selected cell content
 - **Dark theme** — full QSS dark UI, persistent window geometry via QSettings
 - **Keyboard shortcuts**: `Ctrl+P` process, `Ctrl+E` export, `Ctrl+T` toggle view, `Ctrl+Shift+C` copy total, `Ctrl+Q` quit
+
+<table>
+  <tr>
+    <td align="center"><b>Daily summary</b></td>
+    <td align="center"><b>Work blocks / expanded view</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshot-app-daily.png" width="400"></td>
+    <td><img src="assets/screenshot-app-tables.png" width="400"></td>
+  </tr>
+</table>
 
 ## Requirements
 
@@ -54,7 +57,7 @@ python VERSIONS_DURATION_TRACKER_v1.8.py
 
 The app parses version logs copied from Google Drive's web "Manage versions" page (select all text from top to bottom and paste):
 
-![Google Drive "Manage versions" dialog — shows auto‑deletion rules (30 days / 100 versions) and version history list](assets/screenshot-version-list.png)
+<img src="assets/screenshot-version-list.png" width="500">
 
 ```
 Current version
