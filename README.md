@@ -12,10 +12,13 @@ Works for **any file type** edited directly from Google Drive Desktop (maps a dr
 
 ## Features
 
-| View | Screenshot |
-|------|-----------|
-| Daily summary — per‑day totals, decimal hours, first/last version | ![Daily summary](assets/screenshot-app-daily.png) |
-| Work blocks / expanded view with version entries | ![Work blocks](assets/screenshot-app-tables.png) |
+### Daily summary — per‑day totals, decimal hours, first/last version
+
+![Daily summary](assets/screenshot-app-daily.png)
+
+### Work blocks / expanded view — consolidated sessions with version entries
+
+![Work blocks](assets/screenshot-app-tables.png)
 
 - **Daily summary** — per‑day total hours, first/last version, decimal hours for spreadsheet paste
 - **Work blocks** — consolidated sessions filtered by a configurable max‑break gap
