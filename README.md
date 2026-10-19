@@ -1,8 +1,11 @@
 # Version Duration Tracker
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python)
-![PySide6](https://img.shields.io/badge/PySide6-6.x-41CD52?logo=qt)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+<p align="center">
+  <a href="https://github.com/EternalShade3D/Version-Duration-Tracker/releases/latest"><img src="https://img.shields.io/github/v/release/EternalShade3D/Version-Duration-Tracker?style=for-the-badge&labelColor=26282e&label=release&color=41CD52" alt="Latest release"></a>
+  <a href="https://github.com/EternalShade3D/Version-Duration-Tracker#requirements"><img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&labelColor=26282e&logo=python&logoColor=white" alt="Python 3.10+"></a>
+  <img src="https://img.shields.io/badge/PySide6-6.x-41CD52?style=for-the-badge&labelColor=26282e&logo=qt&logoColor=white" alt="PySide6">
+  <a href="https://github.com/EternalShade3D/Version-Duration-Tracker/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&labelColor=26282e" alt="License: MIT"></a>
+</p>
 
 Calculates **active work time** from Google Drive version saves. Paste a version list, set a break threshold, get per‑day work hours with midnight‑split accuracy.
 
